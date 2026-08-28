@@ -134,7 +134,7 @@ img {
   height: auto;
 }
 
-.spaced-paper-entry > td {
+td[width="75%"][valign="middle"] {
   padding-top: 20px;
   padding-bottom: 20px;
 }
