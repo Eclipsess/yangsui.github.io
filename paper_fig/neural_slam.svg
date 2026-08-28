@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">Neural SLAM algorithm and hardware co-design</title>
+  <desc id="desc">A concise schematic connecting camera input, a compressed neural SLAM model, customized hardware, and localization and mapping output.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#627d98"/>
+    </marker>
+    <style>
+      .box{fill:#f6f9fc;stroke:#627d98;stroke-width:3;rx:14}
+      .accent{fill:#e8f1fb;stroke:#2f6f9f;stroke-width:3;rx:14}
+      .label{font:600 22px Arial,sans-serif;fill:#243b53;text-anchor:middle}
+      .small{font:18px Arial,sans-serif;fill:#486581;text-anchor:middle}
+      .line{fill:none;stroke:#627d98;stroke-width:4;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect x="20" y="92" width="130" height="112" class="box"/>
+  <path d="M52 127h48l18 15v35H52z" fill="#9fb3c8"/>
+  <circle cx="83" cy="152" r="14" fill="#f6f9fc" stroke="#486581" stroke-width="4"/>
+  <text x="85" y="232" class="small">Sensor input</text>
+  <path d="M154 148h56" class="line"/>
+  <rect x="215" y="55" width="210" height="190" class="accent"/>
+  <text x="320" y="101" class="label">Neural SLAM</text>
+  <rect x="245" y="122" width="150" height="42" class="box"/>
+  <text x="320" y="150" class="small">Model compression</text>
+  <rect x="245" y="178" width="150" height="42" class="box"/>
+  <text x="320" y="206" class="small">Optimized dataflow</text>
+  <path d="M430 148h52" class="line"/>
+  <rect x="487" y="76" width="105" height="144" class="box"/>
+  <g fill="#6fa8dc">
+    <rect x="508" y="100" width="24" height="24"/><rect x="546" y="100" width="24" height="24"/>
+    <rect x="508" y="138" width="24" height="24"/><rect x="546" y="138" width="24" height="24"/>
+    <rect x="508" y="176" width="24" height="24"/><rect x="546" y="176" width="24" height="24"/>
+  </g>
+  <text x="540" y="248" class="small">Hardware</text>
+  <path d="M596 148h45" class="line"/>
+  <path d="M654 93h45v110h-45z" fill="#f6f9fc" stroke="#627d98" stroke-width="3"/>
+  <path d="M662 181l10-26 9 10 11-38" fill="none" stroke="#2f6f9f" stroke-width="5"/>
+  <circle cx="681" cy="165" r="7" fill="#e56b6f"/>
+  <text x="676" y="232" class="small">Map &amp; pose</text>
+</svg>
