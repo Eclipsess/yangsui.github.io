@@ -146,6 +146,25 @@ td[width="75%"][valign="middle"] {
   padding-bottom: 20px;
 }
 
+.project-highlights-title {
+  margin: 0;
+}
+
+.project-highlights {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.project-highlights > li {
+  margin: 0;
+  padding: 0;
+}
+
+.project-highlights > li > p {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   display: flex;
   flex-wrap: wrap;
