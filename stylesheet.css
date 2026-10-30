@@ -121,18 +121,29 @@ name {
 }
 
 .profile-title {
-  margin: 0 0 20px;
+  margin: 0 0 22px;
   font-size: 17px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.55;
   color: #444;
+}
+
+.profile-affiliation {
+  display: block;
+  margin-top: 2px;
+  color: #666;
 }
 
 .profile-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px 10px;
+  gap: 8px 14px;
   align-items: center;
+}
+
+.profile-links a {
+  display: inline-block;
+  padding: 3px 0;
 }
 
 .profile-links span {
