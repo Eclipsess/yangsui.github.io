@@ -105,6 +105,13 @@ name {
   font-size: 32px;
 }
 
+.profile-title {
+  display: block;
+  margin-top: 6px;
+  font-size: 16px;
+  color: #333;
+}
+
 .one {
   width: 160px;
   height: 160px;
